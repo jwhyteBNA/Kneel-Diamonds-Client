@@ -1,0 +1,45 @@
+@import "details.css";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Figtree:wght@300&display=swap');
+@import url("./Ring2.png")
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #42474B;
+	font-family: 'Figtree', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1524840125-31b9b45928ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+	background-size: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Dancing Script', cursive;
+  color: # color: #726E6D;
+  letter-spacing: 2px;
+}
+
+ul {
+    list-style-type: none;
+    /* padding-inline-start: 0.25rem; */
+}
+
+#orderButton {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: rgb(230, 176, 142);
+    color: #42474B;
+    font-family: 'Figtree', sans-serif;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+

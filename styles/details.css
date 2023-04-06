@@ -1,0 +1,66 @@
+.options {
+    display:flex;
+    flex-basis: 24%;
+    margin: 0 2rem;
+    background-color: rgba(50, 50, 50, .6);
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    color: #DCAC9D;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    color: #DCAC9D;
+    font-size: 45px;
+    text-shadow: 2px 2px #8B8F90;
+}
+
+h2, h3 {
+    display:flex;
+    align-items: flex-start;
+    font-size: 28px;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row; 
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Figtree', sans-serif;
+}
+
+.jewerlyTypes {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    background-color: rgba(50, 50, 50, .6);
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    color: #DCAC9D;
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 20px;
+}
+
+
+.gem {
+    width: 40px;
+    margin-left: 10px;
+}
+
+.customOrders {
+    border-radius: 0.5rem;
+    margin-left: 100px;
+    padding: 3px 10px;
+    color: #42474B;
+    background-color: rgba(220, 172, 157, .8);
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+    width: 75%;
+}
+
+.order-list {
+    font-family: 'Figtree', sans-serif;
+}
